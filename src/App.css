@@ -1,0 +1,81 @@
+/* .App{
+    background-color: bisque;
+} */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf9f8;
+  }
+
+  /* cards */
+  .cards {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px; 
+    background-color: #f8f9fa; 
+    min-height: 100vh; 
+  }
+  .img{
+    height: 114px;
+  }
+.img1{
+    height: 297px;
+}
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+.you {
+    background: #fe8901; 
+    padding: 10px;       
+    display: block;      
+    margin: 25px auto 0; 
+    color: #fff;       
+    max-width: 230px;   
+    font-size: 15px;    
+    text-align: center;  
+    text-decoration: none; 
+    border-radius: 5px;  
+  }
+    
+  /* point de vente */
+  .img2{
+    height: 260px;
+  }
+  /* footer */
+  footer {
+    background-color: #f4b72a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  footer div {
+    margin-top: 10px;
+  }
+  
+  footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
