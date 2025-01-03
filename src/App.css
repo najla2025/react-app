@@ -1,81 +1,168 @@
-/* .App{
-    background-color: bisque;
-} */
+ .App{
+    background-color: rgb(249, 249, 249);
+} 
 
 .nav {
+  background-color: #090908;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #faf9f8;
   }
 
-  /* cards */
-  .cards {
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    flex-wrap: wrap; 
-    gap: 20px; 
-    padding: 20px; 
-    background-color: #f8f9fa; 
-    min-height: 100vh; 
-  }
-  .img{
-    height: 114px;
-  }
-.img1{
-    height: 297px;
-}
-.videos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
   
-.you {
-    background: #fe8901; 
-    padding: 10px;       
-    display: block;      
-    margin: 25px auto 0; 
-    color: #fff;       
-    max-width: 230px;   
-    font-size: 15px;    
-    text-align: center;  
-    text-decoration: none; 
-    border-radius: 5px;  
-  }
-    
-  /* point de vente */
-  .img2{
-    height: 260px;
-  }
   /* footer */
-  footer {
-    background-color: #f4b72a;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  /* Footer container */
+.footer {
+  background-color: #5271f9;
+  color: #ffffff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Footer sections */
+.footer-info, .footer-contact, .footer-social {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-info h3, .footer-contact h3, .footer-social h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #0b044d;
+}
+
+.footer-info p, .footer-contact p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Social links */
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #f3eff3;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-social a:hover {
+  color: #ffffff;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #0e0e0e;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #090909;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+
+  .background-container {
+    background-image: url('https://i.pinimg.com/474x/82/4b/1d/824b1d1baa439d018764e8a8ffc9543d.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88vh; /* Full screen height */
+    
   }
   
-  footer p {
-    margin: 0;
-    font-size: 14px;
+  .pl{
+    display: flex;
+  justify-content: space-around;
+ margin-top: 50px;
   }
+
+  /* Container styling */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espace entre les cartes */
+  margin: 20px;
+  padding: 10px;}
+
+/* Card styling */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+.card-img {
+  min-height: 286px;
+  max-width: 286px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Title and text */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #131212;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Button */
+.card-body button {
+  background-color: #023061;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card-body button:hover {
+  background-color: #0056b3;
+}
+
+.tit {
+  font-family: 'Arial', sans-serif; 
+  font-size: 2.5rem; 
+  font-weight: bold; 
   
-  footer div {
-    margin-top: 10px;
-  }
+  color: #007BFF; 
+  text-transform: uppercase;
   
-  footer a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  
+  text-align: center; 
+  margin: 20px 0; 
+  letter-spacing: 2px; 
+  border-bottom: 3px solid #007BFF;
+  padding-bottom: 10px; 
+  transition: color 0.3s ease, border-color 0.3s ease; 
+}
+.tit:hover {
+  color: #0056b3; 
+  border-color: #0056b3; 
+}

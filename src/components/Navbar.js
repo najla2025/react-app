@@ -12,18 +12,17 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="">Miel Pur</Nav.Link>
-            <Nav.Link href="#link">Miel aux Fruits Sec</Nav.Link>
-            <Nav.Link href="#link">Mélange & Coktail</Nav.Link>
-            <Nav.Link href="#link">Bssissa,Zrir&Créme</Nav.Link>
-            <Nav.Link href="#link">Produit Apricoles</Nav.Link>
+            <Nav.Link href="">A Propos de la FIFA</Nav.Link>
+            <Nav.Link href="#link">Congrés de la FIFA</Nav.Link>
+            <Nav.Link href="#link">FIFA Médical</Nav.Link>
+            <Nav.Link href="#link">Football Professionnel</Nav.Link>
+            <Nav.Link href="#link">Président</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
       
     </Navbar>
-    <img className="img" src="https://mielboumiza.com/static/version1731065267/frontend/FJ/boumiza/fr_FR/images/logo.png" />
-    <img  src="https://mielboumiza.com/media/wysiwyg/produits_web_.png" />
+    <img className="background-container" src="https://i.pinimg.com/736x/a8/68/5f/a8685f690b56e04b64a22e49257a33f4.jpg" alt='' />
       </div>
     );
   }
